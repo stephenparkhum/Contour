@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "alias": "[stephenparkhum]-contour-app",
+    "name": "contour-app",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
