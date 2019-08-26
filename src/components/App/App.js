@@ -1,15 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
+import LandingHeader from '../Landing_Header/Landing_Header';
+import LandingMain from '../Landing_Main/Landing_Main';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Contour</h1>
-        <p>COMING SOON</p>
-        <p>More Text goes here</p>
-      </header>
+export default class App extends Component {
+
+  render() {
+    return (
+      <div className="App">
+      <LandingHeader />
+      <main>
+        <LandingMain />
+      </main>
     </div>
-  );
+    )
+  }
 }
 
-export default App;
+

@@ -1,0 +1,33 @@
+header {
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+}
+
+header ul {
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.nav-links li {
+    padding: 0 35px;
+}

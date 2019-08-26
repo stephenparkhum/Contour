@@ -1,0 +1,62 @@
+.main-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.main-hero p {
+    font-size: 1.25rem;
+}
+
+.main-what-section {
+    background-color: gray;
+    color: white;
+    height: 500px;
+}
+
+.main-what-section h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.main-what-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.what-card {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.what-card img {
+    width: 150px;
+}
+
+.try-button {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
