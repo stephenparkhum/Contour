@@ -1,0 +1,32 @@
+.signup-section {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-form label {
+    text-align: left;
+}
+
+.signup-form input {
+    margin: 10px 0;
+    width: 25%;
+}
+
+.signup-form input[type=submit] {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}

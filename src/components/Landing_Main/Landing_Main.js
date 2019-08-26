@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './Landing_Main_Desktop.css';
 import './Landing_Main_Mobile.css';
 
@@ -8,7 +9,7 @@ export default class LandingMain extends Component {
       <div className="main-page">
         <section className="main-hero">
             <p>Contour allows you to plan, book, and manager your own tours as an independent artist!</p>
-            <a href="#"><button className="try-button">Try Demo</button></a>
+            <Link to="/dashboard"><button className="try-button">Try Demo</button></Link>
         </section>
         <section className="main-what-section">
             <h2>What is <strong>Contour</strong>?</h2>

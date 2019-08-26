@@ -1,0 +1,27 @@
+.profile-section {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.profile-circle {
+    background-color: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-info h2 {
+    text-align: left;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-info ul li {
+    padding: 10px 0;
+}
