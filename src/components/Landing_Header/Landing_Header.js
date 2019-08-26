@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './Landing_Header.css';
+import './Landing_Header_Desktop.css';
+import './Landing_Header_Mobile.css';
 
 export default class LandingHeader extends Component {
   render() {
