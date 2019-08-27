@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './SignUp.css';
 
-class Signup extends Component {
+class SignUp extends Component {
     render() { 
         return ( 
             <section className="signup-section">
@@ -26,4 +26,4 @@ class Signup extends Component {
     }
 }
  
-export default Signup;
+export default SignUp;
