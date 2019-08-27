@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import './Dashboard_Finance_List.css';
 
 class Dashboard_Finance_List extends Component {
