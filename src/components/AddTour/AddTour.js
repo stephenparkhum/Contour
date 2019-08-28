@@ -8,6 +8,8 @@ class AddTour extends Component {
             <div>
             <h2>Add Tour</h2>
             <form className="add-show-form">
+                <label htmlFor="tour-name">Tour Name</label>
+                <input type="text" name="tour-name" id="tour-name" required/>
                 <label htmlFor="start-date">Start Date</label>
                 <input type="date" name="start-date" id="start-date" required/>
                 <label htmlFor="end-date">End Date</label>
