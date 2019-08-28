@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Dashboard_Shows_List.css';
+import './Dashboard_Shows_List_Mobile.css';
 
 class Dashboard_Shows extends Component {
     render() { 

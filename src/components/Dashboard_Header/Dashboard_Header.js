@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import './Dashboard_Header.css';
+import './Dashboard_Header_Mobile.css';
 
 class Dashboard_Header extends Component {
     render() { 

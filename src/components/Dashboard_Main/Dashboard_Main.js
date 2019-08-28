@@ -9,6 +9,7 @@ import AddShow from '../AddShow/AddShow';
 import AddTour from '../AddTour/AddTour';
 import Profile from '../Profile/Profile';
 import './Dashboard_Main.css';
+import './Dashboard_Main_Mobile.css';
 
 class Dashboard_Main extends Component {
     render() { 

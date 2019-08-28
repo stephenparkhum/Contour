@@ -5,7 +5,7 @@ import './Dashboard_Main_Today_Mobile.css';
 function DashboardMainToday() {
     return (
         <>
-        <h2>Today</h2>
+        <h2 className="today-header">Today</h2>
         <div className="dashboard-today-widget">
             <h3>Portland, OR</h3>
             <p><small>8/27/2109</small></p>

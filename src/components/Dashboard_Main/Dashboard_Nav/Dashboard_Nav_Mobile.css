@@ -7,17 +7,17 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        flex-wrap: wrap;
     }
     
     .dashboard-nav ul {
         list-style: none;
-        margin: 0;
-        height: 25px;
+        margin: 0 auto;
+        width: 80%;
         padding-left: 0;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+
     }
     
     .dashboard-nav ul li a {

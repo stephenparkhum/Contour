@@ -14,8 +14,8 @@ class Dashboard_Nav extends Component {
                     <li><NavLink to="/dashboard/tours" activeClassName="dashboard-nav-active">Tours</NavLink></li>
                     <li><NavLink to="/dashboard/finances" activeClassName="dashboard-nav-active">Finances</NavLink></li>
                     <li><NavLink to="/dashboard/profile" activeClassName="dashboard-nav-active">Profile</NavLink></li>
-                    <li className="add-btn"><NavLink to="/dashboard/add-show" activeClassName="dashboard-nav-active">Add Show +</NavLink></li>
-                    <li className="add-btn"><NavLink to="/dashboard/add-tour" activeClassName="dashboard-nav-active">Add Tour +</NavLink></li>
+                    <li className="add-btn mobile-hide"><NavLink to="/dashboard/add-show" activeClassName="dashboard-nav-active">Add Show +</NavLink></li>
+                    <li className="add-btn mobile-hide"><NavLink to="/dashboard/add-tour" activeClassName="dashboard-nav-active">Add Tour +</NavLink></li>
                 </ul>
             </nav>
             </>

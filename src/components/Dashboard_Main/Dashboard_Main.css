@@ -1,12 +1,17 @@
-.dashboard-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+@media only screen and (min-width: 701px) {
+    .dashboard-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .dashboard-feed {
+        margin-left: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
 
-.dashboard-feed {
-    margin-left: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
