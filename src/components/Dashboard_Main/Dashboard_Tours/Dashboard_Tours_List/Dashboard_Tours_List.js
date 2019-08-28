@@ -6,6 +6,7 @@ function Dashboard_Tours_List() {
         <>
             <div className="shows-list">
                 <table>
+                <thead>
                     <tr>
                         <th>Tour Name</th>
                         <th>Start Date</th>
@@ -15,24 +16,28 @@ function Dashboard_Tours_List() {
                         <th>Support</th>
                         <th>Earnings</th>
                     </tr>
-                    <tr>
-                        <td>West Coast Tour 2019</td>
-                        <td>7/19/2019</td>
-                        <td>7/29/2019</td>
-                        <td>USA</td>
-                        <td>9</td>
-                        <td>Velnias</td>
-                        <td>$2,000</td>
-                    </tr>
-                    <tr>
-                        <td>East Coast Tour 2020</td>
-                        <td>3/19/2020</td>
-                        <td>4/19/2020</td>
-                        <td>USA</td>
-                        <td>30</td>
-                        <td>Support Band</td>
-                        <td>$500</td>
-                    </tr>
+                </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>West Coast Tour 2019</td>
+                            <td>7/19/2019</td>
+                            <td>7/29/2019</td>
+                            <td>USA</td>
+                            <td>9</td>
+                            <td>Velnias</td>
+                            <td>$2,000</td>
+                        </tr>
+                        <tr>
+                            <td>East Coast Tour 2020</td>
+                            <td>3/19/2020</td>
+                            <td>4/19/2020</td>
+                            <td>USA</td>
+                            <td>30</td>
+                            <td>Support Band</td>
+                            <td>$500</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
 

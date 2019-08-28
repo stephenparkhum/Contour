@@ -1,4 +1,4 @@
-@media only screen and (max-width: 701px) {
+@media only screen and (min-width: 701px) {
     .dashboard-header {
         margin: 0;
         padding-left: 175px;

@@ -7,7 +7,7 @@ function Profile() {
         <section className="profile-section">
             <div className="profile-circle"></div>
             <div className="profile-info">
-                <h2 class="profile-band-name">Band Name</h2>
+                <h2 className="profile-band-name">Band Name</h2>
                 <ul>
                     <li><strong>Genre:</strong> Metal</li>
                     <li><strong>Location:</strong> Portland, OR</li>

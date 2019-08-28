@@ -6,6 +6,7 @@ class Dashboard_Finance_List extends Component {
         return ( 
             <div className="shows-list">
                 <table>
+                <thead>
                     <tr>
                         <th>Date</th>
                         <th>City, State</th>
@@ -13,6 +14,8 @@ class Dashboard_Finance_List extends Component {
                         <th>Door/Ticket Earnings</th>
                         <th>Merch Earnings</th>
                     </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>7/19/2019</td>
                         <td>Portland, OR</td>
@@ -34,6 +37,8 @@ class Dashboard_Finance_List extends Component {
                         <td>$200</td>
                         <td>$150</td>
                     </tr>
+                </tbody>
+                    
                     
                 </table>
             </div>
