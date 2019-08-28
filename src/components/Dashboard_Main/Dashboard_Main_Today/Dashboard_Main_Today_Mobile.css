@@ -18,7 +18,7 @@
     
     .dashboard-today-widget ul li {
         padding: 10px 0;
-        font-size: 12px;
+        font-size: 15px;
     }
     
     .dashboard-today-widget h3 {
@@ -37,6 +37,7 @@
         text-align: center;
         font-size: 25px;
     }
+
 
 }
 

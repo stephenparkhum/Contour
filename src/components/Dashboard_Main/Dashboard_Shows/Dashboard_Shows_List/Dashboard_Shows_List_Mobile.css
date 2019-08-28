@@ -8,18 +8,22 @@
     
     .shows-list table {
         padding: 20px;
-        width: 1000px;
+        width: 90%;
+        margin: 0 auto;
     }
     
     .shows-list table th {
-        font-size: 15px;
+        font-size: 12px;
         text-align: left;
         padding-bottom: 5px;
+        padding-right: 10px;
         border-bottom: 1px solid black;
     }
     
     .shows-list table td {
-        padding-top: 20px;
+        padding-top: 10px;
+        font-size: 10px;
+        
     }
 }
 
