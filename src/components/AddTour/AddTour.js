@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import './AddTour.css';
 
 class AddTour extends Component {
@@ -18,8 +19,8 @@ class AddTour extends Component {
                 <label htmlFor="fb-event-link">Facebook Event Link</label>
                 <input type="text" name="fb-event-link" id="fb-event-link" required/>
                 <input type="submit" value="Add Tour" />
-                <button className="cancel-btn">Cancel</button>
             </form>
+            <Link to="/dashboard/tours"><button className="cancel-btn">Cancel</button></Link>
             </div>
          );
     }
