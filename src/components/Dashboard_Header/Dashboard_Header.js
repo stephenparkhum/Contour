@@ -6,7 +6,7 @@ class Dashboard_Header extends Component {
     render() { 
         return ( 
             <header className="dashboard-header">
-                <h2>BAND NAME - <small><Link to="/home">Leave Demo</Link></small></h2>
+                <h2>DEMO ARTIST - <small><Link to="/home">Exit Demo</Link></small></h2>
             </header>
          );
     }
