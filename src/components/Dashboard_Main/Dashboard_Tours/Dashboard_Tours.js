@@ -9,7 +9,7 @@ function Dashboard_Tours() {
         <div className="dashboard-tours">
             <h2>Tours</h2>
             <Dashboard_Tours_List />
-            <Link to='/add-tour'><button className="mobile-add-tour">Add Tour</button></Link>
+            <Link to='/dashboard/add-tour'><button className="mobile-add-tour">Add Tour</button></Link>
         </div>
     )
 }

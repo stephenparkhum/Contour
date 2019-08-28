@@ -8,9 +8,9 @@ class Login extends Component {
             <section className="login-section">
             <h2>Login</h2>
             <form className="login-form">
-                <label for="login-email">Email</label>
+                <label htmlFor="login-email">Email</label>
                 <input type="email" id="login-email" name="login-email" required/>
-                <label for="login-password">Password</label>
+                <label htmlFor="login-password">Password</label>
                 <input type="password" id="login-password" name="login-password" required/>
                 <input type="submit" value="Login" />
             </form>

@@ -7,7 +7,7 @@ function Dashboard_Shows() {
             <div>
                 <h2>Shows</h2>
                 <Dashboard_Shows_List />
-                <Link to='/add-show'><button className="mobile-add-tour">Add Show</button></Link>
+                <Link to='/dashboard/add-show'><button className="mobile-add-tour">Add Show</button></Link>
             </div>
          );
 }
