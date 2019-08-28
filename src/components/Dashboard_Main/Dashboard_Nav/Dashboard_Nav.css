@@ -1,32 +1,36 @@
-.dashboard-nav {
-    width: 175px;
-    position: fixed;
-    color: white;
-    background-color: gray;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+@media only screen and (min-width: 701px) {
+    .dashboard-nav {
+        width: 175px;
+        position: fixed;
+        color: white;
+        background-color: gray;
+        padding-top: 50px;
+        height: 100vh;
+        top: 0;
+    }
+
+    .dashboard-nav ul {
+        list-style: none;
+        padding-top: 35px;
+        padding-left: 20%;
+        margin: 0;
+    }
+
+    .dashboard-nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .dashboard-nav ul li {
+        font-size: 20px;
+        padding-bottom: 45px;
+        text-align: left;
+    }
+
+    .dashboard-nav-active {
+        border-bottom: 2px solid white;
+        padding-bottom: 5px;
+    }
+
 }
 
-.dashboard-nav ul {
-    list-style: none;
-    padding-top: 35px;
-    padding-left: 25%;
-    margin: 0;
-}
-
-.dashboard-nav ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-.dashboard-nav ul li {
-    font-size: 20px;
-    padding-bottom: 45px;
-    text-align: left;
-}
-
-.dashboard-nav-active {
-    border-bottom: 2px solid white;
-    padding-bottom: 5px;
-}

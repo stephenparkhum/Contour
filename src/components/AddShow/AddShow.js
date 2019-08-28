@@ -8,15 +8,15 @@ class AddShow extends Component {
             <h2>Add Show</h2>
             <form className="add-show-form">
                 <label for="date">Date</label>
-                <input type="date" name="date" id="date" />
+                <input type="date" name="date" id="date" required/>
                 <label for="location">Location</label>
-                <input type="text" name="location" id="location" />
+                <input type="text" name="location" id="location" required/>
                 <label for="venue">Venue</label>
-                <input type="text" name="venue" id="venue" />
+                <input type="text" name="venue" id="venue" required/>
                 <label for="support-band">Support Bands</label>
-                <input type="text" name="support-band" id="support-band" />
+                <input type="text" name="support-band" id="support-band" required/>
                 <label for="fb-event-link">Facebook Event Link</label>
-                <input type="text" name="fb-event-link" id="fb-event-link" />
+                <input type="text" name="fb-event-link" id="fb-event-link" required/>
                 <input type="submit" value="Add Show" />
                 <button className="cancel-btn">Cancel</button>
             </form>

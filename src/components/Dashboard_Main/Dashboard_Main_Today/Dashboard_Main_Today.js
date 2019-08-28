@@ -1,5 +1,6 @@
 import React from 'react';
 import './Dashboard_Main_Today.css';
+import './Dashboard_Main_Today_Mobile.css';
 
 function DashboardMainToday() {
     return (

@@ -9,9 +9,9 @@ class Login extends Component {
             <h2>Login</h2>
             <form className="login-form">
                 <label for="login-email">Email</label>
-                <input type="email" id="login-email" name="login-email" />
+                <input type="email" id="login-email" name="login-email" required/>
                 <label for="login-password">Password</label>
-                <input type="password" id="login-password" name="login-password" />
+                <input type="password" id="login-password" name="login-password" required/>
                 <input type="submit" value="Login" />
             </form>
             <p>Don't have an account yet? <Link to="/signup">Sign Up</Link></p>

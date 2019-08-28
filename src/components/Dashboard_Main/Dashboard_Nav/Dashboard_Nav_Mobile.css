@@ -1,0 +1,43 @@
+@media only screen and (max-width: 700px) {
+    .dashboard-nav {
+        width: 100%;
+        color: white;
+        background-color: gray;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .dashboard-nav ul {
+        list-style: none;
+        margin: 0;
+        height: 25px;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .dashboard-nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .dashboard-nav ul li {
+        font-size: 15px;
+        border-right: 1px solid white;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .dashboard-nav-active {
+        border-bottom: 2px solid white;
+        padding-bottom: 5px;
+    }
+    
+}
+

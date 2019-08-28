@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 import './Dashboard_Nav.css';
+import './Dashboard_Nav_Mobile.css';
 
 class Dashboard_Nav extends Component {
     render() { 
