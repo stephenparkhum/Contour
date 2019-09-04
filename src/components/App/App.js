@@ -8,8 +8,31 @@ import Dashboard_Header from '../Dashboard_Header/Dashboard_Header';
 import Dashboard_Main from '../Dashboard_Main/Dashboard_Main';
 
 export default class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      shows: [],
+      tours: []
+    };
+  }
+
+  componentDidMount() {
+    this.getShows();
+  }
+
+  getShows() {
+    const url = 'https://peaceful-fortress-94581.herokuapp.com';
+    fetch(`${url}/api/shows`)
+      .then(response => response.json())
+      .then(data => this.updateShowState(data));
+  }
+
+  updateShowState(showList) {
+    this.setState({shows: showList});
+  }
 
   render() {
+
     return (
       <div className="App">
       <Switch>
