@@ -77,10 +77,10 @@ export default class App extends Component {
 
       <ContourContext.Provider value={contextValue}>
         <div className="App">
-        <Route path="/home" component={LandingHeader}/>
+        <Route exact path="/" component={LandingHeader}/>
         <Route path="/dashboard" component={Dashboard_Header}/>
         <main>
-            <Route exact path="/home" component={LandingMain} />
+            <Route exact path="/" component={LandingMain} />
             <Route path="/home/login" component={Login} />
             <Route path="/home/signup" component={SignUp} />
             <Route path="/dashboard" component={Dashboard_Main} />

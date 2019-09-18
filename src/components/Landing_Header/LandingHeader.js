@@ -12,7 +12,7 @@ export default class LandingHeader extends Component {
           </div>
           <nav>
               <ul className="nav-links">
-                  <li><NavLink exact to="/home" activeClassName="nav-link-active">About</NavLink></li>
+                  <li><NavLink exact to="/" activeClassName="nav-link-active">About</NavLink></li>
                   <li><NavLink to="/dashboard" activeClassName="nav-link-active">Demo</NavLink></li>
               </ul>
           </nav>
