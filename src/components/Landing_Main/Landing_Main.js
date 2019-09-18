@@ -8,7 +8,7 @@ export default class LandingMain extends Component {
     return (
       <div className="main-page">
         <section className="main-hero">
-            <p>Contour allows you to plan, book, and manager your own tours as an independent artist!</p>
+            <p>Contour allows you to plan, book, and manage your own tours as an independent artist!</p>
             <Link to="/dashboard"><button className="try-button">Try Demo</button></Link>
         </section>
         <section className="main-what-section">
