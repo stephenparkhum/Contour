@@ -16,6 +16,11 @@
         text-align: center;
         
     }
+
+    h2.section-title {
+        color: var(--light-green);
+        
+    }
 }
 
 

@@ -12,7 +12,7 @@ export default class LandingMain extends Component {
             <Link to="/dashboard"><button className="try-button">Try Demo</button></Link>
         </section>
         <section className="main-what-section">
-            <h2>What is <strong>Contour</strong>?</h2>
+            <h2>What is <strong>Con<span className="logo-color">tour</span></strong>?</h2>
             <div className="main-what-cards">
                 <div className="what-card">
                     <img src="https://images.pexels.com/photos/56832/road-asphalt-space-sky-56832.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Road" />

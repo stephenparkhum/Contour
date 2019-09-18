@@ -1,6 +1,5 @@
 .shows-list {
-    border: 2px solid black;
-
+    border: 1px solid var(--light-green);
 }
 
 .shows-list table {
@@ -12,7 +11,8 @@
     font-size: 16px;
     text-align: left;
     padding-bottom: 10px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid var(--light-green);
+    color: var(--med-green);
 }
 
 .shows-list table td {

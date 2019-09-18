@@ -5,10 +5,15 @@
     }
     
     .dashboard-header h2 a {
-        background: black;
-        border: 1px solid white;
+        background: var(--darkest-black);
+        border: 1px solid var(--med-green);
         padding: 5px;
         font-size: 15px;
+    }
+
+    .dashboard-header h2 a:hover {
+        background: var(--med-green);
+        color: var(--darkest-black);
     }
 }
 

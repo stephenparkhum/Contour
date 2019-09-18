@@ -1,6 +1,6 @@
 @media only screen and (min-width: 701px) {
     header {
-        background: grey;
+        background: var(--darkest-black);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -31,12 +31,16 @@
     
     .nav-links a:hover,
     .nav-link-active {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid var(--med-green);
         padding-bottom: 5px;
     }
     
     .nav-links li {
         padding: 0 35px;
+    }
+
+    .logo-color {
+        color: var(--light-green);
     }
 
 }

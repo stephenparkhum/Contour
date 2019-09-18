@@ -1,6 +1,15 @@
-/* * {
+:root {
+  --dark-black: #1E1E1F;
+  --darkest-black: #191919;
+  --med-grey: #3E3D40;
+  --med-green: #54A650;
+  --light-green: #70D068;
+  --green-shadow: rgba(113, 208, 104, 0.226);
+}
+
+* {
   box-sizing: border-box;
-} */
+}
 
 body {
   margin: 0;

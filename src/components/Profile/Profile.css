@@ -6,7 +6,7 @@
 }
 
 .profile-circle {
-    background-color: black;
+    background-color: var(--med-green);
     border-radius: 50%;
     width: 100px;
     height: 100px;

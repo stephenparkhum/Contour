@@ -3,7 +3,7 @@
         width: 175px;
         position: fixed;
         color: white;
-        background-color: gray;
+        background-color: var(--darkest-black);
         padding-top: 50px;
         height: 100vh;
         top: 0;
@@ -28,7 +28,7 @@
     }
 
     .dashboard-nav-active {
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid var(--light-green);
         padding-bottom: 5px;
     }
 

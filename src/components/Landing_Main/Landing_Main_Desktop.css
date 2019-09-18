@@ -4,7 +4,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 200px;
+        height: 300px;
+        background: var(--med-grey);
+        color: white;
     }
     
     .main-hero p {
@@ -12,14 +14,17 @@
     }
     
     .main-what-section {
-        background-color: gray;
+        background-color: var(--dark-black);
         color: white;
         height: 500px;
     }
     
     .main-what-section h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: center;
+        margin: 0;
+        padding: 75px 0;
+        font-weight: normal;
     }
     
     .main-what-cards {
@@ -29,12 +34,12 @@
     }
     
     .what-card {
-        background-color: white;
+        background-color: var(--med-grey);
         border-radius: 10px;
-        border: none;
-        color: black;
+        border: 2px solid var(--light-green);
+        color: white;
         padding: 20px;
-        width: 200px;
+        width: 250px;
         height: 250px;
         text-align: center;
         display: flex;
@@ -42,6 +47,10 @@
         justify-content: center;
         align-items: center;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    .what-card p {
+        line-height: 20px;
     }
     
     .what-card img {
@@ -55,13 +64,19 @@
         font-weight: bold;
         font-size: 1.25rem;
         color: white;
-        background: black;
+        background: var(--dark-black);
         border-radius: 5px;
         border: none;
         text-align: center;
         cursor: pointer;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
+
+    .try-button:hover {
+        background-color: var(--light-green);
+        color: black;
+    }
+
   }
 
 
